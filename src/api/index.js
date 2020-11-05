@@ -27,7 +27,7 @@ const fetchDailyData=async ()=>{
             confirmed:dailyData.confirmed.total,
             deaths:dailyData.deaths.total,
             Date:dailyData.reportDate,
-
+                  
         }));
         return modifiedData;
  }
