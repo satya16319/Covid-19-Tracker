@@ -31,6 +31,7 @@ class App extends Component {
           const {data,country}=this.state;
            return(
                <div className={style.container}>
+                   <h1>COVID-19</h1>
                    <img className="style.image" src='https://i.ibb.co/7QpKsCX/image.png' alt="COVID-19"/>
                   <Cards data={data}/>
                   <CountryPicker handleCountryChange={this.handleCountryChange}/> 
