@@ -1,0 +1,12 @@
+.formcontrol {
+    justify-content: center;
+    display: flex;   
+    margin-bottom: 30px !important; 
+    /* width: 30%; */
+    
+}
+/* .font{
+    font-size: larger;
+    line-height: 55%;
+color: chartreuse; */
+/* } */
