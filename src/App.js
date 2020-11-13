@@ -26,9 +26,11 @@ class App extends Component {
        })
     //    console.log(fetchdata);
 
+
     }
       render(){
           const {data,country}=this.state;
+        //    console.log(data);
            return(
                <div className={style.container}>
                    <h1>COVID-19</h1>

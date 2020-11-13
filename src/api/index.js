@@ -3,9 +3,12 @@ import axios from 'axios';
 const url='https://covid19.mathdro.id/api';
   
  const fetchData=async(country)=>{
+     console.log(country);
+     
      let changeurl=url;
      if(country)
      {
+        if(country!=='global')
          changeurl=`${url}/countries/${country}`;
      }
     try{
